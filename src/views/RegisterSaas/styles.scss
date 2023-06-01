@@ -1,0 +1,43 @@
+.register-saas {
+  display: flex;
+  justify-content: center;
+  overflow-y: auto;
+  .title-large {
+    font-size: 80px;
+    line-height: 80px;
+  }
+  .title-small {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .group-input-container {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 24px 48px;
+    border-radius: 8px;
+    margin-top: 24px;
+    .title-group {
+      font-size: 30px;
+    }
+    .description-group {
+      font-size: 16px;
+    }
+  }
+  .group-input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+  }
+  .cascader-container {
+    height: 40px;
+  }
+  .button-submit {
+    margin-top: 24px;
+    width: 162px;
+    height: 40px;
+  }
+}
+
+.ant-cascader-menu {
+  height: unset!important;
+  max-height: 300px
+}

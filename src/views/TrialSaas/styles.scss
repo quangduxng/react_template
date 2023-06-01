@@ -1,0 +1,57 @@
+.trial-saas {
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // overflow-y: auto;
+  background-color: #FFF;
+  width: 100%;
+  .style-lable{
+    // color: white;
+  }
+  .title-large {
+    font-size: 80px;
+    line-height: 80px;
+  }
+  .title-small {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .group-input-container {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 24px 48px;
+    border-radius: 8px;
+    margin-top: 24px;
+    .title-group {
+      font-size: 30px;
+    }
+    .description-group {
+      font-size: 16px;
+    }
+  }
+  .group-input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+  }
+  .cascader-container {
+    height: 40px;
+  }
+  .button-submit {
+    margin: 24px auto;
+    width: 162px;
+    height: 40px;
+  }
+}
+
+.ant-cascader-menu {
+  height: unset!important
+}
+
+.modal-create-workspace {
+  // background-color: #FFF;
+  width: 550px !important;
+  .ant-modal-content {
+    border-radius: 12px;
+  }
+}

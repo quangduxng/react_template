@@ -1,0 +1,32 @@
+.invoice {
+  padding: 32px 32px;
+  .name-column {
+    &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+  .bullet-inactive {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    margin-right: 8px;
+  }
+  .bullet-active {
+    background-color: #00b894;
+    border: none;
+  }
+  .bullet-yellow {
+    background-color: #fdcb6e;
+    border: none;
+  }
+  .bullet-orange {
+    background-color: #e17055;
+    border: none;
+  }
+  .bullet-cancel {
+    background-color: #d63031;
+    border: none;
+  }
+}

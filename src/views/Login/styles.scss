@@ -1,0 +1,20 @@
+.login {
+  .button-submit {
+    width: 200px;
+  }
+  .form-center {
+    width: 400px;
+  }
+  .card-login {
+    padding: 32px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .forgot-pass {
+    width: 100%;
+    text-align: right;
+    &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,105 @@
+.login-by-email{
+    height: auto;
+    .button-submit{
+        width: 100%;
+        background-color: #f2690d;
+        &:hover{
+            background-color: #50C2BD;
+        }
+        &:disabled {
+            background-color: #EFEFEF !important;
+        }
+    }
+    .separator {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        &:not(:empty)::before{
+            margin-right: .25em;
+        }
+        &:not(:empty)::after{
+            margin-left: .25em;
+        }
+        &::after, &::before{
+            content: '';
+            flex: 1;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.278);
+        }
+      }
+      .login-by-google{
+        margin-top: 20px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid rgba(83, 83, 83, 0.347);
+        border-radius: 4px;
+        cursor: pointer;
+        span{
+            font-weight: 500;
+        }
+      }
+}
+.enter-code{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+    .container-input-number{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        max-width: 100%;
+        .box-otp {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .react-code-input{
+                input{
+                    margin: 20px 10px;
+                    width: 50px !important;
+                    height: 50px !important;
+                    border-radius: 4px !important;
+                    font-size: 25px !important;
+                    text-align: center !important;
+                }
+            }
+            .button-submit {
+                margin-top: 20px;
+                outline: none;
+                border: none;
+                width: 100px;
+                height: 50px;
+                background-color: #eb7f37;
+                color: white;
+                cursor: pointer;
+                border-radius: 8px;
+                &:hover{
+                    background-color: #50C2BD;
+                }
+                &:disabled {
+                    background-color: #EFEFEF !important;
+                }
+            }
+        }
+        
+    }
+    @media all and (max-width: 480px) {
+        .container-input-number{
+            .box-enter-code{
+                .react-code-input{
+                    input{
+                        width: 40px !important;
+                        height: 40px !important;
+                    }
+                }
+            }
+        }
+      }
+}

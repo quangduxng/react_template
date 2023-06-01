@@ -1,0 +1,41 @@
+/*
+**Author: Santosh Kumar Dash
+**Author URL: http://santoshdash.epizy.com/
+**Github URL: https://github.com/quintuslabs/dashio-admin
+*/
+
+.navbar {
+    background: #fff;
+    box-shadow: 0 0.125rem 0.625rem rgba(90,97,105,.12);
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+div#sticky {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+
+}
+.nav-title{
+    display: flex;
+    text-overflow: ellipsis;
+    flex-direction: row;
+    align-items: center;
+    // width: 187px;
+    font-weight: 600;
+    margin-left: 24px;
+   
+}
+.header{
+    background-color: #2F394E;
+}
+// .ant-dropdown {
+//     z-index: 10000 !important;
+// }
